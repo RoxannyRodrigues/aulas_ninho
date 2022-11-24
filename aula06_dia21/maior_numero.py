@@ -5,6 +5,7 @@ while len(numero) < 5:
     numero.append(valores)
 
 print ("Maior número digitado:", max(numero))
+print ("Menor número digitado:", min(numero))
 
 
 #para nao aparecer a frase Digite valores...
