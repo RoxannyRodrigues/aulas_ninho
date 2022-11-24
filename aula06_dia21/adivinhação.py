@@ -6,6 +6,10 @@ usuario = 0
 
 while usuario != pc:
     usuario=int(input("Adivinhe o numero PC vai escolher: "))
-    print("Tente novamente")
+    print("Tente novamente",pc)
+    
 
 print("Palpite bem-sucedido")
+
+
+#aparece o tente novamente no final"
