@@ -1,0 +1,6 @@
+A = float(input("Valor A:"))
+B = float(input("Valor B:"))
+C= float(input("Valor C:"))
+
+if (A+B) < C:
+    print ("A soma de A + B é menor que C")
