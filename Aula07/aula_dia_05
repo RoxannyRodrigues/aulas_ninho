@@ -1,0 +1,45 @@
+"""escrevam um programa que recebe um número inteiro e usa uma função para 
+determinar se é um número inteiro ou não, se o texto inserido não dor um número interiro peça para o usuário digitar novamente
+dica: isnumeric()
+repetir = True <<<<< variável global
+While(repetir)"""
+
+
+"""def checagem (n):
+    if(n.isnumeric()):
+        print ("Parabéns você escreveu um número inteiro")
+        global repetir
+        repetir = False
+    else:
+        print("Você escreveu algo diferente de um número inteiro. \n Por falor escreva Novamente: ")
+        
+repetir = True
+
+while(repetir):
+    numero = input("Digite um número inteiro:")
+    checagem (numero)"""
+
+
+"""while(True):
+    num = input("Por favor escreva um número inteiro: ")
+
+    if (num.isnumeric()):
+        print("O texto que você digitou é um número inteiro.")
+        break
+    else:
+        print("Você não escreveu um número inteiro: ")"""
+
+    
+def f5(a):
+    a = [10,10]
+    a.append(3)
+    print("Dentro da função:",a )
+
+a = [1,2]
+f5(a)
+print ("Fora da função", a)
+
+    
+            
+
+
